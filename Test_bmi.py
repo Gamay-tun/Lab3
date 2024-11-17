@@ -11,3 +11,4 @@ def test_bmi_over_weight():
 def test_bmi_under_weight():
     result= bmi.calculate_bmi(1.75,50.0)
     assert result==-1
+
